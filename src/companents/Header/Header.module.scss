@@ -24,11 +24,17 @@ header {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 640px) {
   header {
-    gap: 20px;
+    gap: 10px;
     > img {
-      width: 60%;
+      width: 50%;
+    }
+    > div > button {
+      width: 50px;
+      > p {
+        display: none;
+      }
     }
   }
 }

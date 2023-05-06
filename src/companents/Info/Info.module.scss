@@ -41,3 +41,12 @@
     height: 100vh;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .col {
+    > button {
+      font-size: 15px;
+      padding: 20px 30px;
+    }
+  }
+}
