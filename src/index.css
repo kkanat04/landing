@@ -19,3 +19,7 @@ code {
 button {
   cursor: pointer;
 }
+
+.MuiBox-root > * {
+  border: none !important;
+}
