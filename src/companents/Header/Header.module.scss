@@ -27,8 +27,11 @@ header {
 @media screen and (max-width: 640px) {
   header {
     gap: 10px;
+    > div {
+      gap: 10px;
+    }
     > img {
-      width: 50%;
+      width: 60%;
     }
     > div > button {
       width: 50px;

@@ -64,6 +64,7 @@
   .col {
     > div:first-of-type {
       grid-template-columns: repeat(4, 1fr);
+      padding-bottom: 150px;
     }
   }
 }
